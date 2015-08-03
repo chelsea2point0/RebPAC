@@ -1,0 +1,116 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 150;
+}
+
+h2 {
+	padding-top: 50px;
+}
+
+h4 {
+	text-align: left;
+	padding-left: 20px;
+}
+
+p {
+	font-size: 20px;
+}
+
+img {
+	padding: 50px;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 10px; 
+	height: 400px;
+	width: 100%;
+}
+
+/* Header */
+.header {
+  background-image: url("http://www.winghill.com/wp-content/uploads/2014/05/course-banner-business-communications.jpg");
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.header .container {
+	position: relative;
+	top: 100px;
+}
+
+.header h1 {
+	font-size: 80px;
+	line-height: 100px; 
+	margin-top: 0;
+	margin-bottom: 40px; 
+    text-transform: uppercase;  
+}
+
+.header p {
+	font-size: 40px;
+}
+
+ /*
+@media (max-width: 900px) {
+	.header p {
+	font-size: 20px;
+	}
+}
+*/
+
+/* Nav */
+.nav {
+  background-color: black;
+}
+
+.nav .container {
+	height: 80px;
+  	width: 100%;
+  }
+
+.nav ul {
+	display: inline-block;
+	list-style: none;
+	margin: auto; 
+	padding: 20px 0; 
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+}
+
+.nav li {
+  color: white;
+  float: left;
+  font-size: 18px;
+  padding: 10px 50px 0 50px;
+  
+}
+
+.container h2 {
+	padding-left: 20px;
+}
+
+/* ABOUT */
+
+.row p {
+	padding: 60px 60px 30px 50px;
+	position: relative;
+}
+
+.col-md-6 img {
+	float: left;
+	padding-left: 50px;
+}
+
+/* PRODUCTS */
+.products li {
+	margin-left: 80px;
+}
