@@ -1,0 +1,58 @@
+/* ABOUT SUBPAGE */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+	font-size: 18px;
+	padding-top: 30px;
+}
+
+#simpsons {
+	padding-bottom: 20px;
+}
+
+.header {
+  background-color: #141452;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.nav {
+  margin: 0;
+  text-align: center;
+}
+
+.nav li {
+  color: #fff;
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 10px 30px 10px 10px;
+  text-align: center;
+}
+
+.main-about h1, p {
+  color: #141452;
+  text-align: left;
+}
+
+.footer {
+  background-color: #141452;
+  
+  padding: 35px 10px 20px 0;
+}
+
+.footer p {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+}
