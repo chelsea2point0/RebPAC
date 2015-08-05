@@ -30,7 +30,7 @@ html, body {
   display: inline-block;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 16px;
   padding: 10px 30px 10px 10px;
   text-align: center;
 }
@@ -104,6 +104,18 @@ html, body {
 
 .clearfix {
   clear: both;
+}
+
+.contactpricing p {
+  padding-left: 20px;
+}
+
+.discount img {
+  width: 50%;
+}
+
+#creditcards {
+  width: 50%;
 }
 
 .footer {
