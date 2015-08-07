@@ -4,8 +4,13 @@
     <title>REB/PAC Products - Envelopes</title>
     <link href='https://fonts.googleapis.com/css?family=Raleway:400, 600' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link rel='stylesheet' href='style.css'/>
+    <link rel='stylesheet' href='style.css'/>
+
+    <script type="text/javascript" src="js/jQuery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
   </head>
   <body>
     <div class="header">
@@ -26,25 +31,25 @@
         <a href="products.html"><p> < < Back to Products</p></a>
         <h2>Envelopes</h2>
         <hr>
-        <div id="env-list" class="prod-types">
+        <div class="prod-types">
           <ul>
             <br>
-            <li><strong>A-Style</strong></li>
+            <li data-toggle="modal" data-target="#A-Style"><strong>A-Style</strong></li>
             <hr>
             <p>Otherwise referred to as announcement envelopes, these envelopes are commonly used for invitations, promotional mailings, photographs, brochures, and (of course) announcements.</p>
-            <li><strong>Baronial</strong></li>
+            <li data-toggle="modal" data-target="#baronial"><strong>Baronial</strong></li>
             <hr>
             <p>Baronial envelopes have a pointed flap and are ideal for formal mailings such as wedding, birthday, and anniversary invitations.</p>
-            <li><strong>Booklet</strong></li>
+            <li data-toggle="modal" data-target="#booklet"><strong>Booklet</strong></li>
             <hr>
             <p>The flap on the long side of the envelope is the defining feature of the booklet envelope. This design makes it easy to enclose a brochure, catalog, or reports that you don't want folded.</p>
-            <li><strong>Catalog</strong></li>
+            <li data-toggle="modal" data-target="#catalog"><strong>Catalog</strong></li>
             <hr>
             <p>Open-end catalog envelopes are similar to booklet envelopes, but with the flap on the short side. These are commonly used for magazines, calendars, photos, and reports.</p>
-            <li><strong>Commercial</strong></li>
+            <li data-toggle="modal" data-target="#commercial"><strong>Commercial</strong></li>
             <hr>
-            <p>One of REB/PAC's most popular envelopes. Ideal for billing, notices, and other business correspondence.</p> 
-            <li><strong>Square</strong></li>
+            <p>REB/PAC's most popular envelopes. Ideal for billing, notices, and other business correspondence.</p> 
+            <li data-toggle="modal" data-target="#square"><strong>Square</strong></li>
             <hr>
             <p>As the name suggests, these envelopes are square in shape and often used for advertising, announcements, and specialty greeting cards.</p>
             <li><strong>Additional sizes and varieties</strong> </li>
@@ -62,6 +67,113 @@
       </div>
     </div>
 
+  <!-- A-type Modal -->
+<div class="modal fade" id="A-Style" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">A-Style Envelopes</h4>
+      </div>
+      <div class="modal-body">
+        <center><img class="img-responsive" src="http://www.bopi.com/images/envelopes/Envelope%20A%20Style.jpg" height="100%" data-toggle="modal" data-target="#A-Style">
+        Additional Details</center>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Baronial Modal -->
+<div class="modal fade" id="baronial" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Baronial Envelopes</h4>
+      </div>
+      <div class="modal-body">
+        <center><img class="img-responsive" src="http://www.leaderpaper.com/info/images/baronial.gif" height="100%">
+        Additional Details</center>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Booklet Modal -->
+<div class="modal fade" id="booklet" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Booklet Envelopes</h4>
+      </div>
+      <div class="modal-body">
+        <center><img class="img-responsive" src="http://www.bopi.com/images/envelopes/Envelope%20Booklet.jpg" height="100%">
+        Additional Details</center>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>  
+
+  <!-- Catalog Modal -->
+<div class="modal fade" id="catalog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Catalog Envelopes</h4>
+      </div>
+      <div class="modal-body">
+        <center><img class="img-responsive" src="http://www.bopi.com/images/envelopes/Envelope%20Catalog.jpg" height="100%">
+        Additional Details</center>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div> 
+
+  <!-- Commercial Modal -->
+<div class="modal fade" id="commercial" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Commercial Envelopes</h4>
+      </div>
+      <div class="modal-body">
+        <center><img class="img-responsive" src="http://www.bopi.com/images/envelopes/Envelope%20Commercial.jpg" height="100%">
+        Additional Details</center>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>    
+
+  <!-- Square Modal -->
+<div class="modal fade" id="square" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Square Envelopes</h4>
+      </div>
+      <div class="modal-body">
+        <center><img class="img-responsive" src="http://www.bopi.com/images/envelopes/Envelope%20Square.jpg" height="100%">
+        Additional Details</center>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>       
 
      <div class="footer">
       <div class="container">

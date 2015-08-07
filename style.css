@@ -65,8 +65,8 @@ li {
 }
 
 .supporting {
-  padding-top: 50px;
-  padding-bottom: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .supporting .col {
@@ -127,6 +127,14 @@ li {
 
 .prod-types p {
   padding-bottom: 30px;
+}
+
+.prod-types li:hover {
+  cursor: pointer;
+}
+
+.prod-types #additional {
+  cursor: auto;
 }
 
 .footer {
