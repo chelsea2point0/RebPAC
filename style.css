@@ -5,6 +5,8 @@ html, body {
 }
 
 h2 {
+  color: #E60000;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 30px;
   margin-top: 30px;
   margin-bottom: 10px;
@@ -78,6 +80,7 @@ li {
 }
 
 .supporting h2 {
+  color: #141452;
   font-weight: 600;
   font-size: 23px;
   text-transform: uppercase;
