@@ -40,7 +40,6 @@ li {
 }
 
 .nav li {
-  color: #fff;
   display: inline-block;
   font-weight: 600;
   font-size: 16px;
@@ -129,12 +128,13 @@ li {
   padding-bottom: 30px;
 }
 
-.prod-types li:hover {
-  cursor: pointer;
+.prod-types li {
+  color: blue;
 }
 
-.prod-types #additional {
-  cursor: auto;
+.prod-types li:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .footer {
